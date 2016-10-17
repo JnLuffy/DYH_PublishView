@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F7AC86E2964CE97318DF969 /* libPods-DYH_PublishView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD3DB86EA99C74B5A4B84B9 /* libPods-DYH_PublishView.a */; };
 		8308BD4C1DADD4C500049574 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8308BD4B1DADD4C500049574 /* main.m */; };
 		8308BD4F1DADD4C500049574 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8308BD4E1DADD4C500049574 /* AppDelegate.m */; };
 		8308BD521DADD4C500049574 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8308BD511DADD4C500049574 /* ViewController.m */; };
@@ -15,6 +16,7 @@
 		8308BD5A1DADD4C500049574 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8308BD581DADD4C500049574 /* LaunchScreen.storyboard */; };
 		8308BD651DADD4C600049574 /* DYH_PublishViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8308BD641DADD4C600049574 /* DYH_PublishViewTests.m */; };
 		8308BD701DADD4C600049574 /* DYH_PublishViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8308BD6F1DADD4C600049574 /* DYH_PublishViewUITests.m */; };
+		8308BD7E1DAE40EC00049574 /* 1111.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8308BD7D1DAE40EC00049574 /* 1111.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0EFCD041373A8989FAECC3E0 /* Pods-DYH_PublishView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DYH_PublishView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DYH_PublishView/Pods-DYH_PublishView.debug.xcconfig"; sourceTree = "<group>"; };
+		0FD3DB86EA99C74B5A4B84B9 /* libPods-DYH_PublishView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DYH_PublishView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		124EC979EDEEC45173967859 /* Pods-DYH_PublishView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DYH_PublishView.release.xcconfig"; path = "Pods/Target Support Files/Pods-DYH_PublishView/Pods-DYH_PublishView.release.xcconfig"; sourceTree = "<group>"; };
 		8308BD471DADD4C500049574 /* DYH_PublishView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYH_PublishView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8308BD4B1DADD4C500049574 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8308BD4D1DADD4C500049574 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +56,7 @@
 		8308BD6B1DADD4C600049574 /* DYH_PublishViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DYH_PublishViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8308BD6F1DADD4C600049574 /* DYH_PublishViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYH_PublishViewUITests.m; sourceTree = "<group>"; };
 		8308BD711DADD4C600049574 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8308BD7D1DAE40EC00049574 /* 1111.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1111.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F7AC86E2964CE97318DF969 /* libPods-DYH_PublishView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +92,8 @@
 				8308BD631DADD4C600049574 /* DYH_PublishViewTests */,
 				8308BD6E1DADD4C600049574 /* DYH_PublishViewUITests */,
 				8308BD481DADD4C500049574 /* Products */,
+				FB41C78CB599CB1568A9577E /* Pods */,
+				973E884E9963025F5481E01D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +114,7 @@
 				8308BD4E1DADD4C500049574 /* AppDelegate.m */,
 				8308BD501DADD4C500049574 /* ViewController.h */,
 				8308BD511DADD4C500049574 /* ViewController.m */,
+				8308BD7D1DAE40EC00049574 /* 1111.jpg */,
 				8308BD531DADD4C500049574 /* Main.storyboard */,
 				8308BD561DADD4C500049574 /* Assets.xcassets */,
 				8308BD581DADD4C500049574 /* LaunchScreen.storyboard */,
@@ -140,6 +150,23 @@
 			path = DYH_PublishViewUITests;
 			sourceTree = "<group>";
 		};
+		973E884E9963025F5481E01D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0FD3DB86EA99C74B5A4B84B9 /* libPods-DYH_PublishView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB41C78CB599CB1568A9577E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0EFCD041373A8989FAECC3E0 /* Pods-DYH_PublishView.debug.xcconfig */,
+				124EC979EDEEC45173967859 /* Pods-DYH_PublishView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +174,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8308BD741DADD4C600049574 /* Build configuration list for PBXNativeTarget "DYH_PublishView" */;
 			buildPhases = (
+				1F1EEC265547F5D3B0A70BA1 /* Check Pods Manifest.lock */,
 				8308BD431DADD4C500049574 /* Sources */,
 				8308BD441DADD4C500049574 /* Frameworks */,
 				8308BD451DADD4C500049574 /* Resources */,
+				AAB9CC65D66FF98954B81B0F /* Embed Pods Frameworks */,
+				22FF73DA386EAF6BB80F5852 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +237,7 @@
 				TargetAttributes = {
 					8308BD461DADD4C500049574 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 9N6P88TN8F;
 					};
 					8308BD5F1DADD4C600049574 = {
 						CreatedOnToolsVersion = 7.3;
@@ -246,6 +277,7 @@
 				8308BD5A1DADD4C500049574 /* LaunchScreen.storyboard in Resources */,
 				8308BD571DADD4C500049574 /* Assets.xcassets in Resources */,
 				8308BD551DADD4C500049574 /* Main.storyboard in Resources */,
+				8308BD7E1DAE40EC00049574 /* 1111.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +296,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F1EEC265547F5D3B0A70BA1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		22FF73DA386EAF6BB80F5852 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DYH_PublishView/Pods-DYH_PublishView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAB9CC65D66FF98954B81B0F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DYH_PublishView/Pods-DYH_PublishView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8308BD431DADD4C500049574 /* Sources */ = {
@@ -411,8 +491,10 @@
 		};
 		8308BD751DADD4C600049574 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EFCD041373A8989FAECC3E0 /* Pods-DYH_PublishView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9N6P88TN8F;
 				INFOPLIST_FILE = DYH_PublishView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "luffy.DYH-PublishView";
@@ -422,8 +504,10 @@
 		};
 		8308BD761DADD4C600049574 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 124EC979EDEEC45173967859 /* Pods-DYH_PublishView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9N6P88TN8F;
 				INFOPLIST_FILE = DYH_PublishView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "luffy.DYH-PublishView";
@@ -496,6 +580,7 @@
 				8308BD761DADD4C600049574 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8308BD771DADD4C600049574 /* Build configuration list for PBXNativeTarget "DYH_PublishViewTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +589,7 @@
 				8308BD791DADD4C600049574 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8308BD7A1DADD4C600049574 /* Build configuration list for PBXNativeTarget "DYH_PublishViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +598,7 @@
 				8308BD7C1DADD4C600049574 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

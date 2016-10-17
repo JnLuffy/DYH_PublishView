@@ -1,0 +1,16 @@
+PODS:
+  - Masonry (1.0.1)
+  - UITableView+FDTemplateLayoutCell (1.4)
+  - YYText (1.0.5)
+
+DEPENDENCIES:
+  - Masonry
+  - UITableView+FDTemplateLayoutCell
+  - YYText
+
+SPEC CHECKSUMS:
+  Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
+  UITableView+FDTemplateLayoutCell: 234e1582bcc4e18461af91155123bb96538ed030
+  YYText: ac09660c9ccd9b817f409a20caa6f5587444d2ae
+
+COCOAPODS: 0.39.0
